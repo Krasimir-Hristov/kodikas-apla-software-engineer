@@ -1,9 +1,9 @@
-# Зависимости
+# Dependacies
 node_modules/
 .pnp
 .pnp.js
 
-# Build / генерирани файлове
+# Build 
 .next/
 dist/
 build/
@@ -11,7 +11,7 @@ out/
 .supabase/
 *.tsbuildinfo
 
-# Логове и кешове
+# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -19,7 +19,7 @@ yarn-error.log*
 pnpm-debug.log*
 .eslintcache
 
-# Секрети и локална конфигурация
+# Secrets
 .env
 .env.*
 !.env.example
