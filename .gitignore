@@ -1,0 +1,34 @@
+# Зависимости
+node_modules/
+.pnp
+.pnp.js
+
+# Build / генерирани файлове
+.next/
+dist/
+build/
+out/
+.supabase/
+*.tsbuildinfo
+
+# Логове и кешове
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# Секрети и локална конфигурация
+.env
+.env.*
+!.env.example
+.secrets
+
+# Редактори / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
